@@ -1,0 +1,35 @@
+
+body{
+    padding-top: 45px;
+}/* Navbar customisée */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #ff6600;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 8px 18px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}

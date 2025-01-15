@@ -1,0 +1,80 @@
+body{
+    padding-top: 45px;
+}/* General Navbar Styling */
+.navbar {
+    padding: 0.8rem 1.5rem;
+    background-color: #fff; /* Fond blanc pour un design épuré */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour du relief */
+    z-index: 2000;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 45px;
+    margin-right: 8px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+background: #ffc107;
+}
+
+.btn-warning {
+    background: linear-gradient(to bottom right, #ffc107, #ff8800);
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+
+.sidebar-header h5{
+    font-size: 1.5rem;
+    text-align: center;
+   margin: 0 auto;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Caché par défaut */
+    width: 300px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease-in-out;
+    z-index: 1050;
+}
+
+.sidebar.open {
+    right: 0; /* Visible quand ouvert */
+}
+
+.sidebar-header {
+    background: linear-gradient(to bottom right, #ffc107, #ff8800);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-content {
+    width: 100%;
+    height: calc(100% - 60px); /* Ajuster pour ne pas recouvrir le header */
+    border: none;
+}

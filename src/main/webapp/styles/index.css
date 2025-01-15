@@ -1,0 +1,95 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, #ffc107, #ff8800);
+    color: white;
+    padding: 4rem 0;
+}
+
+/* Features Section */
+.features img {
+    border: 3px solid #ffc107;
+}
+
+/* Best Dishes Section */
+.best-dishes .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.best-dishes .card:hover {
+    transform: scale(1.05);
+}
+
+.best-dishes .btn-warning {
+    background: linear-gradient(to bottom right, #ffc107, #ff8800);
+    border: none;
+}
+
+.best-dishes .btn-warning:hover {
+    background-color: #ff8800;
+}
+
+/* Testimonials Section */
+.testimonials .testimonial {
+    border-left: 5px solid #ffc107;
+}
+
+/* Cards Styling */
+.features .card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.features .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #ffc107;
+}
+
+.features .card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.features .card-text {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Section Alignment */
+.features {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+/* General Styles for the Card Images */
+.image-container {
+    width: 100%;
+    height: 200px; /* Définit une hauteur fixe pour les images */
+    overflow: hidden; /* Cache les débordements pour un effet carré */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Fond gris clair pour les images manquantes */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintient le ratio et remplit l'espace */
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Ajoute un léger zoom au survol */
+}
+
+/* Card Body Alignment */
+.card-body {
+    padding: 1rem;
+}

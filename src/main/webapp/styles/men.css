@@ -1,0 +1,48 @@
+.filter-bar {
+    left: 0;
+    width: 100%;
+    margin-top: 95px;
+    gap: 5px;
+}
+.input-quantity {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    text-align: center;
+}
+.btn-warning {
+    background: linear-gradient(to bottom right, #ffc107, #ff8800);
+    border: none;
+    padding: 8px 18px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+.btn-warning:hover {
+    color: #ffc107;
+}
+.menu-category {
+    margin-top: 50px; /* Give space for the fixed filter bar */
+}
+.menu-category .row {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-title {
+    font-weight: 600;
+    color: #333;
+}
+.card-text {
+    color: #777;
+    font-size: 0.85rem;
+}
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+
+}

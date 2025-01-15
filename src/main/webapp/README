@@ -1,0 +1,42 @@
+COMMANDE
+
+<!-- pour faire une Barre latérale -->
+<div class="sidebar">
+	<h4 class="text-center text-warning fw-bold">Admin Panel</h4>
+	<a href="admin-dashboard.jsp" class="fw-bold"><i class="bi bi-speedometer2"></i> Dashboard</a>
+	<a href="admin-products.jsp" class="fw-bold"><i class="bi bi-basket"></i> Produits</a>
+	<a href="admin-users.jsp" class="fw-bold"><i class="bi bi-people"></i> Utilisateurs</a>
+	<a href="admin-orders.jsp" class="fw-bold"><i class="bi bi-receipt"></i> Commandes</a>
+	<a href="index.jsp" class="fw-bold text-danger"><i class="bi bi-box-arrow-right"></i> Déconnexion</a>
+</div>
+
+<--Pour ficer la bare de navigation--->
+fixed-top : Cette classe de Bootstrap positionne la barre de navigation de manière fixe en haut de la page. Elle reste donc visible même lorsque vous faites défiler la page.
+padding-top dans le CSS : La propriété padding-top: 80px; est ajoutée pour éviter que le contenu soit masqué sous la barre de navigation fixe. Vous devrez ajuster la valeur en fonction de la hauteur réelle de votre barre de navigation (par exemple, si elle mesure 70px, définissez padding-top: 70px).
+Cela fera en sorte que la barre de navigation reste en place en haut, tandis que le reste du contenu défilera en dessous.
+
+
+body{
+    padding-top: 80px;
+}
+.menu-category {
+    margin-bottom: 20px; /* Réduit l'espacement sous chaque catégorie */
+}
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.card-img-top {
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+    height: 280px;
+}
+
+
+
+
+

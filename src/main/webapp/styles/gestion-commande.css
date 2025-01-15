@@ -1,0 +1,27 @@
+/* Barre latérale */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+}
+.sidebar a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.sidebar a:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* Contenu principal */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
